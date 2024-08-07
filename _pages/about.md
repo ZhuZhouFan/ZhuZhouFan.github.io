@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://wise.xmu.edu.cn/english/'> The Wang Yanan Institute for Studies in Economics (WISE), Xiamen University</a>.
 

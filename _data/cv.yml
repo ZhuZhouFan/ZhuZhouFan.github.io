@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Zhoufan Zhu (朱周帆)
     - name: Date of Birth
-      value: 14th March 1879
+      value: 7th August 1995
     - name: Languages
-      value: English, German
+      value: Mandarin, English
 
 - title: Education
   type: time_table
@@ -91,7 +91,7 @@
         - Description 1.
         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

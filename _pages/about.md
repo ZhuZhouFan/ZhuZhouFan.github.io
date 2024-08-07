@@ -10,16 +10,17 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
+  more_info:
+    # >
     <p>Room TBD</p>
 
-    <p>Xiamen University</p>
+    # <p>Xiamen University</p>
 
-    <p>Xiamen, China</p>
+    # <p>Xiamen, China</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am an assistant professor at Xiamen University. My research lies at the intersection of artificial intelligence and finance. We are dedicated to designing advanced computational and machine learning algorithms for financial data analysis, primarily focusing on time-series data, to improve trading strategies and portfolio selection in modern big data scenario. Specifically, we focus on: 

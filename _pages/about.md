@@ -8,13 +8,13 @@ subtitle: <a href='https://wise.xmu.edu.cn/english/'>WISE, Xiamen University</a>
 
 profile:
   align: right
-  image: img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room TBD</p>
 
     <p>Xiamen University</p>
-    
+
     <p>Xiamen, China</p>
 
 news: true # includes a list of news items

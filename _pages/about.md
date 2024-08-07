@@ -21,7 +21,7 @@ profile:
     # <p>Xiamen, China</p>
 
 news: false # includes a list of news items
-posts: false # includes a list of latest posts
+# posts: false # includes a list of latest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---

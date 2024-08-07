@@ -8,11 +8,13 @@ subtitle: <a href='https://wise.xmu.edu.cn/english/'>WISE, Xiamen University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: img/prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room TBD</p>
+
     <p>Xiamen University</p>
+    
     <p>Xiamen, China</p>
 
 news: true # includes a list of news items
@@ -23,8 +25,7 @@ social: false # includes social icons at the bottom of the page
 I am an assistant professor at Xiamen University. My research lies at the intersection of artificial intelligence and finance. We are dedicated to designing advanced computational and machine learning algorithms for financial data analysis, primarily focusing on time-series data, to improve trading strategies and portfolio selection in modern big data scenario. Specifically, we focus on: 
 
 
-Before joining XMU, I got my Ph.D. Degree in Mathmetical Statistics from School of Statistics and Management, Shanghai University of Finance and Economics in 2024, under the supervision of Prof. [Liwen Zhang](https://ssm.sufe.edu.cn/ce/6e/c712a118382/page.htm). During 2022.07--2024.01, I worked as a research assistant in Department of Statistics and Actuarial Science, The University of Hong Kong, with Prof. [Ke Zhu](https://mazhuke.w3spaces.com/). 
-
+Before joining XMU, I earned my Ph.D. in Mathematical Statistics from the School of Statistics and Management at Shanghai University of Finance and Economics in 2024, under the supervision of Prof. [Liwen Zhang](https://ssm.sufe.edu.cn/ce/6e/c712a118382/page.htm). Between July 2022 and January 2024, I served as a Research Assistant in the Department of Statistics and Actuarial Science at The University of Hong Kong, supervised by Prof. [Ke Zhu](https://mazhuke.w3spaces.com/). 
 
 <!-- I was a postdoctoral research fellow at Stanford University, working with Prof. Lei Xing.
 

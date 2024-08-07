@@ -1,6 +1,6 @@
 ---
-layout: About Me
-title: Biography
+layout: about
+title: about
 permalink: /
 subtitle: <a href='https://wise.xmu.edu.cn/english/'>WISE, Xiamen University</a>.
 

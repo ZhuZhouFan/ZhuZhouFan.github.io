@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /
 title: Experience
 # description: Materials for courses you taught. Replace this text with your description.
 nav: true

@@ -12,7 +12,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info:
     # >
-    <p>Room TBD</p>
+    # <p>Room TBD</p>
 
     # <p>tylerzzf1103@gmail.com</p>
 

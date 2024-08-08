@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /experiences/
 title: Experiences
 # description: Materials for courses you taught. Replace this text with your description.
 nav: true
@@ -9,17 +9,10 @@ nav_order: 6
 
 ## Internship
 
-1) Guangzhou Redcat Asset Management Co., Ltd. (红猫资管), Shanghai
-    
-    Quantitative Researcher Intern
-    
-    June 2021 – February 2024
+1) Quantitative Researcher Intern, Guangzhou Redcat Asset Management Co., Ltd. (红猫资管), Shanghai, June 2021 – February 2024.
 
-2) Zhejiang Bailu Investment Management Co., Ltd (白鹭资管), Shanghai
+2) Quantitative Researcher Intern, Zhejiang Bailu Investment Management Co., Ltd (白鹭资管), Shanghai, July 2020 – September 2024.
 
-    Quantitative Researcher Intern
-    
-    July 2020 – September 2024
 
 ## Teaching 
 

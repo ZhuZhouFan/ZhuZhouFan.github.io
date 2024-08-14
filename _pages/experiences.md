@@ -9,10 +9,10 @@ nav_order: 6
 
 ## Internship
 
-1) **Quantitative Research Intern, Guangzhou Redcat Asset Management Co., Ltd. (红猫资管), Shanghai**  
+1) **Quantitative Research Intern**, Guangzhou Redcat Asset Management Co., Ltd. (红猫资管), Shanghai 
    *June 2021 – February 2024*
 
-2) **Quantitative Research Intern, Zhejiang Bailu Investment Management Co., Ltd. (白鹭资管), Shanghai**  
+2) **Quantitative Research Intern**, Zhejiang Bailu Investment Management Co., Ltd. (白鹭资管), Shanghai
    *July 2020 – September 2024*
 
 ## Teaching 

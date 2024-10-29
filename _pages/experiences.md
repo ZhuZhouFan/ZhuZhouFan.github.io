@@ -13,7 +13,7 @@ nav_order: 6
    *June 2021 – February 2024*
 
 2) **Quantitative Research Intern**, Zhejiang Bailu Investment Management Co., Ltd. (白鹭资管), Shanghai
-   *July 2020 – September 2024*
+   *July 2020 – September 2020*
 
 ## Teaching 
 

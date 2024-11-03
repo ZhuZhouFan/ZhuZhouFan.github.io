@@ -26,7 +26,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is Zhoufan Zhu (朱周帆 in Chinese). I am now an assistant professor at WISE, Xiamen University. My recent research lies at the intersection of artificial intelligence and finance. I am dedicated to designing advanced computational and machine learning algorithms for financial data analysis, primarily focusing on stock market data, to improve trading strategies and portfolio selection in the context of modern big data. My specific areas of focus include:
+My name is Zhoufan Zhu (朱周帆 in Chinese). I am now an assistant professor at WISE & Department of Finance, Xiamen University. My recent research lies at the intersection of artificial intelligence and finance. I am dedicated to designing advanced computational and machine learning algorithms for financial data analysis, primarily focusing on stock market data, to improve trading strategies and portfolio selection in the context of modern big data. My specific areas of focus include:
 
 1) Developing multimodal learning algorithms (e.g., multimodal foundation models) to integrate multi-scale financial data for asset pricing and portfolio selection;
 

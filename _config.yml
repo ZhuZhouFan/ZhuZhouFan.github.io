@@ -191,6 +191,7 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
+    source: _zhuzhoufan/_news
   projects:
     output: true
     permalink: /:collection/:title/

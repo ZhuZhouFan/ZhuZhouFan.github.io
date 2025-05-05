@@ -191,9 +191,6 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-    source: _news
-    sort_by: date
-    sort_order: reverse
   projects:
     output: true
     permalink: /:collection/:title/

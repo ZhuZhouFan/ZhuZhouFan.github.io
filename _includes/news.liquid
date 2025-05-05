@@ -1,10 +1,4 @@
 <div class="news">
-  <!-- Debug info -->
-  <div style="display: none;">
-    News collection exists: {{ site.collections.news != nil }}
-    News docs count: {{ site.collections.news.docs | size }}
-    News docs: {{ site.collections.news.docs | jsonify }}
-  </div>
   
   {% if site.collections.news.docs != blank %}
     {% assign news_size = site.collections.news.docs | size %}

@@ -191,7 +191,7 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-    source: _zhuzhoufan/_news
+    source: _news
     sort_by: date
     sort_order: reverse
   projects:
@@ -226,7 +226,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_zhuzhoufan"]
+include: ["_pages"]
 exclude:
   - bin/
   - CONTRIBUTING.md

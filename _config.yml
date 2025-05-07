@@ -10,7 +10,7 @@ email: tylerzzf@xmu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to Zhoufan Zhu's homepage!
 footer_text: # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Zhoufan Zhu, deep learning in finance, distributional reinforcement learning, multimodal learning, WISE, Xiamen university # add your own keywords or leave empty
+keywords: 朱周帆, 厦门大学, 厦门大学朱周帆, Zhoufan Zhu, deep learning in finance, distributional reinforcement learning, multimodal learning, WISE, Xiamen university # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: lala_2.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/) /assets/img/lala_cat.jpg
 

@@ -19,6 +19,10 @@ nav_order: 6
 
 ## Teaching 
 
+1. **Instructor**, Risk Modelling and Management, Postgraduate Course at XMU (in English)
+
+1. **Instructor**, Thesis Writing, Undergraduate Course at XMU (in English)
+
 1. **Tutor**, Python for Big Data in Economics, Undergraduate Course at XMU (in English)
 
 1. **Tutor**, Quantitative Strategies and Algorithmic Trading, Postgraduate Course at HKU (in English)

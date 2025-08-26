@@ -11,8 +11,8 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     # image: lala_cat.jpg
-    content: zhaoyingbo.md
-    image_circular: false # crops the image to make it circular
+    content: peoples/zhaoyingbo.md
+    # image_circular: false # crops the image to make it circular
     # more_info: >
     #   <p>555 your office number</p>
     #   <p>123 your address street</p>

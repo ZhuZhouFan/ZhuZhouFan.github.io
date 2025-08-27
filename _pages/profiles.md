@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /member/
 title: Group Members
-description: Members of our group
+description: We are a research group working at the intersection of deep learning and financial data analysis. We are looking for self-motivated students with a strong interest in these areas, particularly those who enjoy coding and quantitative trading. If you are interested in joining us, please send me an email with your CV and transcripts.
 nav: true
 nav_order: 7
 

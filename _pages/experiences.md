@@ -19,6 +19,10 @@ nav_order: 6
 
 ## Teaching 
 
+1. **Instructor**, Reinforcement Learning, Postgraduate Course at XMU (in English)
+
+1. **Instructor**, Deep Learning & Large Language Models, Undergraduate Course at XMU (in English)
+
 1. **Instructor**, Risk Modelling and Management, Postgraduate Course at XMU (in English)
 
 1. **Instructor**, Thesis Writing, Undergraduate Course at XMU (in English)

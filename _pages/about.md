@@ -33,6 +33,8 @@ My name is Zhoufan Zhu (朱周帆). Welcome to my homepage.
 
 1. Developing multimodal learning algorithms (e.g., multimodal foundation models) to integrate multi-scale financial data for asset pricing and portfolio selection;
 
+1. Designing automatic formulaic alpha discovery algorithms for quantitative trading and return prediction;
+
 1. Building real-world learning systems to learn generalizable, trustworthy, and fair representations from imperfect financial data;
 
 1. Creating causality-driven learning methods to address conformal prediction problems in complex financial data, improving their interpretability and safety for risk management.

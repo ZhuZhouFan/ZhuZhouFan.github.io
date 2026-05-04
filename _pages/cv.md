@@ -7,11 +7,11 @@ nav: true
 nav_order: 6
 ---
 
-## Academic Appointments
+### Academic Appointments
 
 - **Assistant Professor**, Wang Yanan Institute for Studies in Economics (WISE) and Department of Finance, Xiamen University, Xiamen, China. *August 2024 – present.*
 
-## Grants
+### Grants
 
 1. **Young Scientist Fund Project (Category C) of the National Natural Science Foundation of China (NSFC)**: 72503203, PI, *2026 - 2028.*
 
@@ -20,13 +20,7 @@ nav_order: 6
 1. **Fundamental Research Funds for the Central Universities**: 20720251053, PI, *2025 - 2027.*
 
 
-## Research Experience
-
-- **Research Assistant**, Department of Statistics and Actuarial Science, The University of Hong Kong, Hong Kong. *July 2022 – January 2024.*  
-  Worked with Prof. [Ke Zhu (朱柯)](https://mazhuke.w3spaces.com/) on deep learning, statistical learning, and financial data analysis.
-
-
-## Teaching Experience
+### Teaching Experience
 
 - **Instructor**, Reinforcement Learning, postgraduate course, Xiamen University. *Taught in English.*
 - **Instructor**, Deep Learning and Large Language Models, undergraduate course, Xiamen University. *Taught in English.*
@@ -37,7 +31,7 @@ nav_order: 6
 - **Tutor**, Deep Learning Models, postgraduate course, Shanghai University of Finance and Economics.
 - **Tutor**, Statistics, undergraduate course, Shanghai University of Finance and Economics.
 
-## Industry Experience
+### Industry Experience
 
 - **Quantitative Research Intern**, Guangzhou Redcat Asset Management Co., Ltd. (红猫资管), Shanghai, China. *June 2021 – February 2024.*
 - **Quantitative Research Intern**, Zhejiang Bailu Investment Management Co., Ltd. (白鹭资管), Shanghai, China. *July 2020 – September 2020.*

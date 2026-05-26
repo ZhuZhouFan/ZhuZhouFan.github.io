@@ -15,7 +15,7 @@ nav_order: 6
 
 1. **Young Scientist Fund Project (Category C) of the National Natural Science Foundation of China (NSFC)**: 72503203, PI, *2026 - 2028.*
 
-1. **Natural Science Foundation of Fujian Province**: 2025J01036, PI, *2025 - 2028.*
+1. **Natural Science Foundation of Fujian Province**: 2025J08009, PI, *2025 - 2028.*
 
 1. **Fundamental Research Funds for the Central Universities**: 20720251053, PI, *2025 - 2027.*
 

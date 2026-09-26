@@ -2,6 +2,21 @@
 
 ---
 
+@inproceedings{zhao2026Alphapareto,
+bibtex_show = {true},
+abbr = {Neurips},
+title={AlphaPareto: Formulaic Alpha Discovery with LLM-Guided Multi-Objective Reinforcement Learning},
+author={Zhao Yingbo and Yang Zeyu and Zhoufan Zhu*},
+booktitle={Proceedings of the 44th Conference on Neural Information Processing Systems},
+year={2026},
+selected = {true},
+annotation={* Corresponding author},
+abstract = {
+Formulaic alpha discovery is a core challenge in quantitative trading, as identifying alphas that work well together remains difficult. Recent reinforcement learning (RL) methods formulate this task as a Markov decision process (MDP), but two important issues remain unresolved. First, as the alpha pool evolves, the reward function changes accordingly, making the MDP inherently non-stationary. Second, most existing methods optimize a single objective, typically predictive power, while ignoring other important properties of a high-quality alpha pool. Motivated by these challenges, we propose AlphaPareto, an RL method for formulaic alpha discovery. To address non-stationarity, AlphaPareto augments the state to include both the alpha under construction and the current alpha pool, and applies a large language model (LLM) to encode the pool. This design allows the agent to adapt to the evolving search environment. To overcome the limitation of single-objective reward design, AlphaPareto replaces the scalar reward with a multi-objective vector-valued reward that simultaneously captures predictive power, temporal stability, perturbation robustness, and diversity, and optimizes these objectives through a Pareto-regularized learning procedure. Empirical applications to real-world datasets show that our AlphaPareto method outperforms its competitors.
+}
+}
+
+
 @article{Zhu2026GRAND,
   bibtex_show = {true},
   abbr = {MS},
@@ -40,7 +55,6 @@ title={Conditional Quantile Adjusted Conformal Prediction for Time Series},
 author={Cheng Yu and Zhoufan Zhu* and Ke Zhu},
 booktitle={Proceedings of the 43rd International Conference on Machine Learning},
 year={2026},
-selected = {true},
 html={https://icml.cc/virtual/2026/poster/64983},
 annotation={* Corresponding author},
 abstract = {Conformal prediction is challenging for time series with the time-varying conditional distributions. Existing sequential conformal methods can yield volatile, non-nested prediction intervals due to noisy tail conditional quantile estimation and quantile crossing issue. To overcome this challenge, we construct the prediction intervals for time series via a novel method called Conditional Quantile Adjusted Conformal Prediction (CQACP), which stabilizes sequential conformal calibration by modeling the conditional quantile curve of nonconformity score. At each time step, CQACP evaluates a base conditional quantile learner on a grid of quantile levels, and fits a Cornish-Fisher approximation parameterized by conditional moments of nonconformity score with monotonicity constraints. Asymptotically, we prove the conditional validity of the prediction interval under serial dependence and show improved conditional quantile estimation accuracy. Experiments on multiple real-world datasets demonstrate that CQACP maintains accurate coverage and produces smooth, narrow, and nested prediction intervals across different significance levels and prediction models.},
@@ -145,7 +159,6 @@ code = {https://github.com/ZhuZhouFan/AlphaQCM}
   booktitle = {Proceedings of the 40th International Conference on Machine Learning},
   annotation={† co-first authors, alphabetically ordered},
   html = {https://proceedings.mlr.press/v202/kuang23a},
-  selected = {true},
   abstract={Although distributional reinforcement learning (DRL) has been widely examined in the past few years, very few studies investigate the validity of the obtained Q-function estimator in the distributional setting. To fully understand how the approximation errors of the Q-function affect the whole training process, we do some error analysis and theoretically show how to reduce both the bias and the variance of the error terms. With this new understanding, we construct a new estimator Quantiled Expansion Mean (QEM) and introduce a new DRL algorithm (QEMRL) from the statistical perspective. We extensively evaluate our QEMRL algorithm on a variety of Atari and Mujoco benchmark tasks and demonstrate that QEMRL achieves significant improvement over baseline algorithms in terms of sample efficiency and convergence performance.}
 }
 

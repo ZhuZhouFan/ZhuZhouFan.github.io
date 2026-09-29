@@ -7,14 +7,15 @@ bibtex_show = {true},
 abbr = {Neurips},
 title={AlphaPareto: Formulaic Alpha Discovery with LLM-Guided Multi-Objective Reinforcement Learning},
 author={Zhao Yingbo and Yang Zeyu and Zhoufan Zhu*},
-booktitle={To appear in Proceedings of the 40th Conference on Neural Information Processing Systems},
+booktitle={Proceedings of the 40th Conference on Neural Information Processing Systems},
 year={2026},
 selected = {true},
 annotation={* Corresponding author},
 abstract = {
 Formulaic alpha discovery is a core challenge in quantitative trading, as identifying alphas that work well together remains difficult. Recent reinforcement learning (RL) methods formulate this task as a Markov decision process (MDP), but two important issues remain unresolved. First, as the alpha pool evolves, the reward function changes accordingly, making the MDP inherently non-stationary. Second, most existing methods optimize a single objective, typically predictive power, while ignoring other important properties of a high-quality alpha pool. Motivated by these challenges, we propose AlphaPareto, an RL method for formulaic alpha discovery. To address non-stationarity, AlphaPareto augments the state to include both the alpha under construction and the current alpha pool, and applies a large language model (LLM) to encode the pool. This design allows the agent to adapt to the evolving search environment. To overcome the limitation of single-objective reward design, AlphaPareto replaces the scalar reward with a multi-objective vector-valued reward that simultaneously captures predictive power, temporal stability, perturbation robustness, and diversity, and optimizes these objectives through a Pareto-regularized learning procedure. Empirical applications to real-world datasets show that our AlphaPareto method outperforms its competitors.
 },
-code = {https://github.com/BiQiBaoWinner/AlphaPareto}
+code = {https://github.com/BiQiBaoWinner/AlphaPareto},
+arxiv={2609.34188}
 }
 
 

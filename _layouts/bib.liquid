@@ -51,8 +51,8 @@
     <!-- Author -->
     <div class="author">
       {%- capture author_mark_corresponding -%}<sup class="author-role" title="Corresponding author"><i class="fa-solid fa-envelope fa-xs" aria-hidden="true"></i></sup>{%- endcapture -%}
-      {%- capture author_mark_student -%}<span class="author-role author-role-student" title="Supervised student">🎓</span>{%- endcapture -%}
-      {%- capture author_mark_cofirst -%}<sup class="author-role" title="Co-first author">*</sup>{%- endcapture -%}
+      {%- capture author_mark_student -%}<sup class="author-role" title="Supervised student"><span class="author-role-student">🎓</span></sup>{%- endcapture -%}
+      {%- capture author_mark_cofirst -%}<sup class="author-role" title="Co-first author, alphabetically ordered">⇌</sup>{%- endcapture -%}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}

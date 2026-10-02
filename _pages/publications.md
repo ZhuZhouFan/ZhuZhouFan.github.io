@@ -13,7 +13,7 @@ nav_order: 2
   <span class="legend-sep" aria-hidden="true">·</span>
   <sup class="author-role"><i class="fa-solid fa-envelope fa-xs" aria-hidden="true"></i></sup> corresponding author
   <span class="legend-sep" aria-hidden="true">·</span>
-  <sup class="author-role"><i class="fa-solid fa-graduation-cap fa-xs" aria-hidden="true"></i></sup> supervised student
+  <span class="author-role author-role-student" title="Supervised student">🎓</span> supervised student
 </p>
 
 <!-- Bibsearch Feature -->

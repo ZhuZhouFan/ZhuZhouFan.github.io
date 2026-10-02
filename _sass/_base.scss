@@ -232,6 +232,22 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.author-role-legend {
+  .legend-sep {
+    margin: 0 0.4rem;
+    color: var(--global-text-color-light);
+  }
+
+  .author-role {
+    margin-right: 0.2em;
+
+    i {
+      font-size: 0.7em;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
 // Navbar customization
 
 .navbar {
@@ -725,6 +741,15 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+        }
+
+        .author-role {
+          margin-left: 0.08em;
+
+          i {
+            font-size: 0.7em;
+            color: var(--global-text-color-light);
+          }
         }
 
         > span.more-authors {

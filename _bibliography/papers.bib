@@ -6,11 +6,10 @@
 bibtex_show = {true},
 abbr = {Neurips},
 title={AlphaPareto: Formulaic Alpha Discovery with LLM-Guided Multi-Objective Reinforcement Learning},
-author={Zhao Yingbo and Yang Zeyu and Zhoufan Zhu*},
+author={Zhao Yingbo‡ and Yang Zeyu‡ and Zhoufan Zhu†},
 booktitle={Proceedings of the 40th Conference on Neural Information Processing Systems},
 year={2026},
 selected = {true},
-annotation={* Corresponding author},
 abstract = {
 Formulaic alpha discovery is a core challenge in quantitative trading, as identifying alphas that work well together remains difficult. Recent reinforcement learning (RL) methods formulate this task as a Markov decision process (MDP), but two important issues remain unresolved. First, as the alpha pool evolves, the reward function changes accordingly, making the MDP inherently non-stationary. Second, most existing methods optimize a single objective, typically predictive power, while ignoring other important properties of a high-quality alpha pool. Motivated by these challenges, we propose AlphaPareto, an RL method for formulaic alpha discovery. To address non-stationarity, AlphaPareto augments the state to include both the alpha under construction and the current alpha pool, and applies a large language model (LLM) to encode the pool. This design allows the agent to adapt to the evolving search environment. To overcome the limitation of single-objective reward design, AlphaPareto replaces the scalar reward with a multi-objective vector-valued reward that simultaneously captures predictive power, temporal stability, perturbation robustness, and diversity, and optimizes these objectives through a Pareto-regularized learning procedure. Empirical applications to real-world datasets show that our AlphaPareto method outperforms its competitors.
 },
@@ -39,8 +38,7 @@ arxiv={2609.34188}
       bibtex_show = {true},
       abbr = {Preprint},
       title={ReSGA: A Large Tail Risk Model for Learning Value-at-Risk and Expected Shortfall}, 
-      author={Yichi Zhang and Ke Zhu and Zhoufan Zhu*},
-      annotation={* Corresponding author},
+      author={Yichi Zhang and Ke Zhu and Zhoufan Zhu†},
       year={2026},
       eprint={2606.04576},
       archivePrefix={arXiv},
@@ -54,11 +52,10 @@ arxiv={2609.34188}
 bibtex_show = {true},
 abbr = {ICML},
 title={Conditional Quantile Adjusted Conformal Prediction for Time Series},
-author={Cheng Yu and Zhoufan Zhu* and Ke Zhu},
+author={Cheng Yu and Zhoufan Zhu† and Ke Zhu},
 booktitle={Proceedings of the 43rd International Conference on Machine Learning},
 year={2026},
 html={https://icml.cc/virtual/2026/poster/64983},
-annotation={* Corresponding author},
 abstract = {Conformal prediction is challenging for time series with the time-varying conditional distributions. Existing sequential conformal methods can yield volatile, non-nested prediction intervals due to noisy tail conditional quantile estimation and quantile crossing issue. To overcome this challenge, we construct the prediction intervals for time series via a novel method called Conditional Quantile Adjusted Conformal Prediction (CQACP), which stabilizes sequential conformal calibration by modeling the conditional quantile curve of nonconformity score. At each time step, CQACP evaluates a base conditional quantile learner on a grid of quantile levels, and fits a Cornish-Fisher approximation parameterized by conditional moments of nonconformity score with monotonicity constraints. Asymptotically, we prove the conditional validity of the prediction interval under serial dependence and show improved conditional quantile estimation accuracy. Experiments on multiple real-world datasets demonstrate that CQACP maintains accurate coverage and produces smooth, narrow, and nested prediction intervals across different significance levels and prediction models.},
 code = {https://openreview.net/attachment?id=I7qW7mXhRF&name=supplementary_material}
 }
@@ -135,7 +132,7 @@ code = {https://github.com/ZhuZhouFan/AlphaQCM}
   bibtex_show = {true},
   abbr = {JBES},
   title = {Asset Pricing via the Conditional Quantile Variational Autoencoder.},
-  author = {Yang†, Xunling and Zhu†, Zhoufan and Li, Dong and Zhu, Ke},
+  author = {Yang*, Xunling and Zhu*, Zhoufan and Li, Dong and Zhu, Ke},
   journal = {Journal of Business \& Economic Statistics},
   volume = {42},
   number = {2},
@@ -144,7 +141,7 @@ code = {https://github.com/ZhuZhouFan/AlphaQCM}
   publisher = {Taylor & Francis},
   html = {https://doi.org/10.1080/07350015.2023.2223683},
   code = {https://github.com/ZhuZhouFan/CQVAE}, 
-  annotation={† co-first authors, alphabetically ordered},
+  annotation={Co-first authors, alphabetically ordered},
   selected = {true},
   abstract={We propose a new asset pricing model that is applicable to the big panel of return data. The main idea of this model is to learn the conditional distribution of the return, which is approximated by a step distribution function constructed from conditional quantiles of the return. To study conditional quantiles of the return, we propose a new conditional quantile variational autoencoder (CQVAE) network. The CQVAE network specifies a factor structure for conditional quantiles with latent factors learned from a VAE network and nonlinear factor loadings learned from a “multi-head” network. Under the CQVAE network, we allow the observed covariates such as asset characteristics to guide the structure of latent factors and factor loadings. Furthermore, we provide a two-step estimation procedure for the CQVAE network. Using the learned conditional distribution of return from the CQVAE network, we propose our asset pricing model from the mean of this distribution, and additionally, we use both the mean and variance of this distribution to select portfolios. Finally, we apply our CQVAE asset pricing model to analyze a large 60-year US equity return dataset. Compared with the benchmark conditional autoencoder model, the CQVAE model not only delivers much larger values of out-of-sample total and predictive R-sqaures, but also earns at least 30.9% higher values of Sharpe ratios for both long-short and long-only portfolios.}
 }
@@ -152,14 +149,14 @@ code = {https://github.com/ZhuZhouFan/AlphaQCM}
 @inproceedings{Kuang2023Variance,
   bibtex_show = {true},
   abbr = {ICML},
-  author = {Kuang†, Qi and Zhu†, Zhoufan and Zhang, Liwen and Zhou, Fan},
+  author = {Kuang*, Qi and Zhu*, Zhoufan and Zhang, Liwen and Zhou, Fan},
   title = {Variance Control for Distributional Reinforcement Learning},
   year = {2023},
   publisher = {JMLR.org},
   articleno = {736},
   numpages = {22},
   booktitle = {Proceedings of the 40th International Conference on Machine Learning},
-  annotation={† co-first authors, alphabetically ordered},
+  annotation={Co-first authors, alphabetically ordered},
   html = {https://proceedings.mlr.press/v202/kuang23a},
   abstract={Although distributional reinforcement learning (DRL) has been widely examined in the past few years, very few studies investigate the validity of the obtained Q-function estimator in the distributional setting. To fully understand how the approximation errors of the Q-function affect the whole training process, we do some error analysis and theoretically show how to reduce both the bias and the variance of the error terms. With this new understanding, we construct a new estimator Quantiled Expansion Mean (QEM) and introduce a new DRL algorithm (QEMRL) from the statistical perspective. We extensively evaluate our QEMRL algorithm on a variety of Atari and Mujoco benchmark tasks and demonstrate that QEMRL achieves significant improvement over baseline algorithms in terms of sample efficiency and convergence performance.}
 }

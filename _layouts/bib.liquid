@@ -50,6 +50,9 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {%- capture author_mark_corresponding -%}<sup class="author-role" title="Corresponding author"><i class="fa-solid fa-envelope fa-xs" aria-hidden="true"></i></sup>{%- endcapture -%}
+      {%- capture author_mark_student -%}<sup class="author-role" title="Supervised student"><i class="fa-solid fa-graduation-cap fa-xs" aria-hidden="true"></i></sup>{%- endcapture -%}
+      {%- capture author_mark_cofirst -%}<sup class="author-role" title="Co-first author">*</sup>{%- endcapture -%}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -60,7 +63,7 @@
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- assign author_last_html = author.last | regex_replace: '†', author_mark_corresponding | regex_replace: '‡', author_mark_student | regex_replace: '[*∗]', author_mark_cofirst | regex_replace: '([§¶‖&^]+)', '<sup>\1</sup>' -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -107,27 +110,27 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {%- assign author_last_html = author.last | regex_replace: '†', author_mark_corresponding | regex_replace: '‡', author_mark_student | regex_replace: '[*∗]', author_mark_cofirst | regex_replace: '([§¶‖&^]+)', '<sup>\1</sup>' -%}
+          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author_last_html %}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
         <span
           class="more-authors"
           title="click to view {{ more_authors_hide }}"
+          data-more-authors="{{ more_authors_show | escape }}"
+          data-more-authors-label="{{ more_authors_hide | escape }}"
           onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{ site.more_authors_animation_delay }}');
+              var label = element.attr('data-more-authors-label');
+              if (element.text() === label) {
+                element.html(element.attr('data-more-authors'));
+              } else {
+                element.text(label);
+              }
           "
         >
           {{- more_authors_hide -}}

@@ -21,6 +21,9 @@ profiles:
   - align: right
     content: _huangweiqing.md
     more_info: 
+  - align: right
+    content: _hejianxu.md
+    more_info: 
 #   - align: left
 #     image: prof_pic.jpg
 #     content: about_einstein.md
